@@ -21,6 +21,11 @@ struct TabbarMainView: View {
                 .tabItem {
                     Label("Search", image: "img_search")
                 }
+            SavedView()
+                .tabItem {
+                    Label("Saved", image: "img_saved")
+                }
+            
         }
         .tint(.white)
         .onAppear() {
