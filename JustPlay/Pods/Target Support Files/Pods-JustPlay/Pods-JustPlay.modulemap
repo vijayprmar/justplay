@@ -1,0 +1,6 @@
+framework module Pods_JustPlay {
+  umbrella header "Pods-JustPlay-umbrella.h"
+
+  export *
+  module * { export * }
+}

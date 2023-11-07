@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  SignupView.swift
 //  JustPlay
 //
 //  Created by Vijay Parmar on 06/11/23.
@@ -7,8 +7,10 @@
 
 import SwiftUI
 import FloatingLabelTextFieldSwiftUI
-struct LoginView: View {
+
+struct SignupView: View {
     
+    @State private var fullName:String = ""
     @State private var email:String = ""
     @State private var password: String = ""
     @State private var isPasswordShow: Bool = false
@@ -20,10 +22,20 @@ struct LoginView: View {
             
             ScrollView{
                 Spacer(minLength: 60)
-                Text("Login")
+                Text(StringConstants.kLblSignUp)
                     .font(FontScheme.kPoppinsMedium(size: 25))
                     .foregroundStyle(.white)
                 Spacer(minLength: 40)
+                
+                FloatingLabelTextField($fullName,placeholder: StringConstants.kLblFullName)
+                    .titleColor(.white)
+                    .selectedLineColor(.white)
+                    .selectedTextColor(.white)
+                    .selectedTitleColor(.white)
+                    .lineColor(.white)
+                    .padding()
+                
+                
                 FloatingLabelTextField($email,placeholder: StringConstants.kLblEmailAddress)
                     .titleColor(.white)
                     .selectedLineColor(.white)
@@ -52,19 +64,10 @@ struct LoginView: View {
                         }
                     })
                     .padding()
-                HStack{
-                    Spacer()
-                    Button(action: {}, label: {
-                        Text(StringConstants.kMsgForgotPassword)
-                            .font(FontScheme.kPoppinsRegular(size: 16))
-                            .foregroundStyle(.white)
-                            
-                    })
-                    .padding(.trailing,16)
-                }
+               
                 
                 Button(action: {}, label: {
-                    Text(StringConstants.kLblLogin)
+                    Text(StringConstants.kLblSignUp)
                         .font(FontScheme.kPoppinsMedium(size: 16))
                         .foregroundStyle(.white)
                         
@@ -118,7 +121,7 @@ struct LoginView: View {
                         .foregroundStyle(.white.opacity(0.7))
                     
                     Button(action: {}, label: {
-                        Text(StringConstants.kLblSignUpNow)
+                        Text(StringConstants.kLblLoginNow)
                             .font(FontScheme.kPoppinsRegular(size: 16))
                             .foregroundStyle(.white)
                             .underline()
@@ -134,5 +137,5 @@ struct LoginView: View {
 }
 
 #Preview {
-    LoginView()
+    SignupView()
 }

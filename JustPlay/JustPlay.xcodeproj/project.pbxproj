@@ -19,9 +19,25 @@
 		6F4C35F02AF8E17E0063537B /* PoppinsLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C35EA2AF8E17E0063537B /* PoppinsLight.ttf */; };
 		6F4C35F12AF8E17E0063537B /* PoppinsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C35EB2AF8E17E0063537B /* PoppinsSemiBold.ttf */; };
 		6F4C35F42AF8E2A50063537B /* FontScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C35F32AF8E2A50063537B /* FontScheme.swift */; };
+		6F4C35F82AF8EA4D0063537B /* FloatingLabelTextFieldSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6F4C35F72AF8EA4D0063537B /* FloatingLabelTextFieldSwiftUI */; };
+		6F4C35FA2AF8EB960063537B /* StringScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C35F92AF8EB960063537B /* StringScheme.swift */; };
+		6F4C35FC2AF8F0040063537B /* LabelledDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C35FB2AF8F0040063537B /* LabelledDivider.swift */; };
+		6F4C35FF2AF902570063537B /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C35FE2AF902570063537B /* SignupView.swift */; };
+		6F4C36012AF903310063537B /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36002AF903310063537B /* ForgotPasswordView.swift */; };
+		6F4C36032AF9100F0063537B /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36022AF9100F0063537B /* ResetPasswordView.swift */; };
+		6F4C36052AF911850063537B /* ResetPasswordCongratesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36042AF911850063537B /* ResetPasswordCongratesView.swift */; };
+		6F4C36072AF913440063537B /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36062AF913440063537B /* OTPVerificationView.swift */; };
+		6F4C360A2AFA14B30063537B /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36092AFA14B30063537B /* ImageCarouselView.swift */; };
+		6F4C360C2AFA14EA0063537B /* TabbarMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C360B2AFA14EA0063537B /* TabbarMainView.swift */; };
+		6F4C360F2AFA18050063537B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C360E2AFA18050063537B /* HomeView.swift */; };
+		6F4C36112AFA1E180063537B /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36102AFA1E180063537B /* CapsuleButton.swift */; };
+		6F4C36132AFA48490063537B /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36122AFA48490063537B /* SavedView.swift */; };
+		6F4C36162AFA48750063537B /* SavedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36152AFA48750063537B /* SavedCard.swift */; };
+		9DCD8E02F4BA99C72564F0F1 /* Pods_JustPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5835FF53FE70EE171A81EF4 /* Pods_JustPlay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F91AD9824D7E69AFE11BCD0 /* Pods-JustPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPlay.release.xcconfig"; path = "Target Support Files/Pods-JustPlay/Pods-JustPlay.release.xcconfig"; sourceTree = "<group>"; };
 		6F4C35CD2AF8C9280063537B /* JustPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4C35D02AF8C9280063537B /* JustPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustPlayApp.swift; sourceTree = "<group>"; };
 		6F4C35D42AF8C9290063537B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +52,21 @@
 		6F4C35EB2AF8E17E0063537B /* PoppinsSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsSemiBold.ttf; sourceTree = "<group>"; };
 		6F4C35F22AF8E1C20063537B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6F4C35F32AF8E2A50063537B /* FontScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
+		6F4C35F92AF8EB960063537B /* StringScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringScheme.swift; sourceTree = "<group>"; };
+		6F4C35FB2AF8F0040063537B /* LabelledDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelledDivider.swift; sourceTree = "<group>"; };
+		6F4C35FE2AF902570063537B /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		6F4C36002AF903310063537B /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		6F4C36022AF9100F0063537B /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		6F4C36042AF911850063537B /* ResetPasswordCongratesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordCongratesView.swift; sourceTree = "<group>"; };
+		6F4C36062AF913440063537B /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		6F4C36092AFA14B30063537B /* ImageCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
+		6F4C360B2AFA14EA0063537B /* TabbarMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarMainView.swift; sourceTree = "<group>"; };
+		6F4C360E2AFA18050063537B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6F4C36102AFA1E180063537B /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		6F4C36122AFA48490063537B /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		6F4C36152AFA48750063537B /* SavedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCard.swift; sourceTree = "<group>"; };
+		E3DACB731D632C98395BBB59 /* Pods-JustPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPlay.debug.xcconfig"; path = "Target Support Files/Pods-JustPlay/Pods-JustPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		F5835FF53FE70EE171A81EF4 /* Pods_JustPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4C35F82AF8EA4D0063537B /* FloatingLabelTextFieldSwiftUI in Frameworks */,
+				9DCD8E02F4BA99C72564F0F1 /* Pods_JustPlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +87,8 @@
 			children = (
 				6F4C35CF2AF8C9280063537B /* JustPlay */,
 				6F4C35CE2AF8C9280063537B /* Products */,
+				B9EFCFDEF6889ED3877AF8A2 /* Pods */,
+				9D339CBD92BB324F629877A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,11 +106,15 @@
 				6F4C35F22AF8E1C20063537B /* Info.plist */,
 				6F4C35F52AF8E2AB0063537B /* Utility */,
 				6F4C35E42AF8E17E0063537B /* Resources */,
-				6F4C35E32AF8CF290063537B /* Auth */,
 				6F4C35DE2AF8CD5F0063537B /* Splash */,
+				6F4C35E32AF8CF290063537B /* Auth */,
+				6F4C36082AFA10D20063537B /* Tabbar */,
+				6F4C360D2AFA17F10063537B /* Home */,
+				6F4C36142AFA48560063537B /* Saved */,
 				6F4C35D02AF8C9280063537B /* JustPlayApp.swift */,
 				6F4C35D42AF8C9290063537B /* Assets.xcassets */,
 				6F4C35D62AF8C9290063537B /* Preview Content */,
+				6F4C35FD2AF8F0080063537B /* CustomeViews */,
 			);
 			path = JustPlay;
 			sourceTree = "<group>";
@@ -100,6 +139,11 @@
 			isa = PBXGroup;
 			children = (
 				6F4C35E12AF8CF230063537B /* LoginView.swift */,
+				6F4C35FE2AF902570063537B /* SignupView.swift */,
+				6F4C36002AF903310063537B /* ForgotPasswordView.swift */,
+				6F4C36022AF9100F0063537B /* ResetPasswordView.swift */,
+				6F4C36042AF911850063537B /* ResetPasswordCongratesView.swift */,
+				6F4C36062AF913440063537B /* OTPVerificationView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -128,9 +172,62 @@
 		6F4C35F52AF8E2AB0063537B /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				6F4C35F92AF8EB960063537B /* StringScheme.swift */,
 				6F4C35F32AF8E2A50063537B /* FontScheme.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		6F4C35FD2AF8F0080063537B /* CustomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C36092AFA14B30063537B /* ImageCarouselView.swift */,
+				6F4C35FB2AF8F0040063537B /* LabelledDivider.swift */,
+				6F4C36102AFA1E180063537B /* CapsuleButton.swift */,
+			);
+			path = CustomeViews;
+			sourceTree = "<group>";
+		};
+		6F4C36082AFA10D20063537B /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C360B2AFA14EA0063537B /* TabbarMainView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		6F4C360D2AFA17F10063537B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C360E2AFA18050063537B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6F4C36142AFA48560063537B /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C36122AFA48490063537B /* SavedView.swift */,
+				6F4C36152AFA48750063537B /* SavedCard.swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		9D339CBD92BB324F629877A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5835FF53FE70EE171A81EF4 /* Pods_JustPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9EFCFDEF6889ED3877AF8A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3DACB731D632C98395BBB59 /* Pods-JustPlay.debug.xcconfig */,
+				0F91AD9824D7E69AFE11BCD0 /* Pods-JustPlay.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,15 +237,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F4C35DB2AF8C9290063537B /* Build configuration list for PBXNativeTarget "JustPlay" */;
 			buildPhases = (
+				297079C332593222C54681FD /* [CP] Check Pods Manifest.lock */,
 				6F4C35C92AF8C9280063537B /* Sources */,
 				6F4C35CA2AF8C9280063537B /* Frameworks */,
 				6F4C35CB2AF8C9280063537B /* Resources */,
+				5E9207FA61E186C37663149E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = JustPlay;
+			packageProductDependencies = (
+				6F4C35F72AF8EA4D0063537B /* FloatingLabelTextFieldSwiftUI */,
+			);
 			productName = JustPlay;
 			productReference = 6F4C35CD2AF8C9280063537B /* JustPlay.app */;
 			productType = "com.apple.product-type.application";
@@ -177,6 +279,9 @@
 				Base,
 			);
 			mainGroup = 6F4C35C42AF8C9280063537B;
+			packageReferences = (
+				6F4C35F62AF8EA4D0063537B /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */,
+			);
 			productRefGroup = 6F4C35CE2AF8C9280063537B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,14 +309,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		297079C332593222C54681FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9207FA61E186C37663149E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustPlay/Pods-JustPlay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustPlay/Pods-JustPlay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JustPlay/Pods-JustPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F4C35C92AF8C9280063537B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4C36162AFA48750063537B /* SavedCard.swift in Sources */,
+				6F4C36052AF911850063537B /* ResetPasswordCongratesView.swift in Sources */,
+				6F4C36072AF913440063537B /* OTPVerificationView.swift in Sources */,
+				6F4C35FF2AF902570063537B /* SignupView.swift in Sources */,
+				6F4C35FA2AF8EB960063537B /* StringScheme.swift in Sources */,
+				6F4C36012AF903310063537B /* ForgotPasswordView.swift in Sources */,
+				6F4C36032AF9100F0063537B /* ResetPasswordView.swift in Sources */,
+				6F4C360C2AFA14EA0063537B /* TabbarMainView.swift in Sources */,
+				6F4C360A2AFA14B30063537B /* ImageCarouselView.swift in Sources */,
+				6F4C36132AFA48490063537B /* SavedView.swift in Sources */,
 				6F4C35D12AF8C9280063537B /* JustPlayApp.swift in Sources */,
 				6F4C35E22AF8CF230063537B /* LoginView.swift in Sources */,
 				6F4C35E02AF8CD5F0063537B /* SplashView.swift in Sources */,
+				6F4C360F2AFA18050063537B /* HomeView.swift in Sources */,
+				6F4C35FC2AF8F0040063537B /* LabelledDivider.swift in Sources */,
+				6F4C36112AFA1E180063537B /* CapsuleButton.swift in Sources */,
 				6F4C35F42AF8E2A50063537B /* FontScheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +500,7 @@
 		};
 		6F4C35DC2AF8C9290063537B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DACB731D632C98395BBB59 /* Pods-JustPlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,6 +508,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JustPlay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JustPlay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -369,6 +531,7 @@
 		};
 		6F4C35DD2AF8C9290063537B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F91AD9824D7E69AFE11BCD0 /* Pods-JustPlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -376,6 +539,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JustPlay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JustPlay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -418,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F4C35F62AF8EA4D0063537B /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishanraja/FloatingLabelTextFieldSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F4C35F72AF8EA4D0063537B /* FloatingLabelTextFieldSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F4C35F62AF8EA4D0063537B /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */;
+			productName = FloatingLabelTextFieldSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F4C35C52AF8C9280063537B /* Project object */;
 }

@@ -14,7 +14,7 @@ struct SplashView: View {
     var body: some View {
         ZStack{
             if self.isActive{
-                LoginView()
+                TabbarMainView()
             }else{
                 Image("img_play")
                      .resizable()
