@@ -13,18 +13,19 @@ struct SavedView: View {
             Color.appDarkBlue
             .ignoresSafeArea()
             VStack{
-                HStack{
-                    Spacer()
+                ZStack{
                     Text(StringConstants.kLblSaved)
                         .font(FontScheme.kPoppinsSemiBold(size: 20))
                         .foregroundStyle(.white)
-                    Spacer()
+                        .frame(maxWidth: .infinity,alignment:.center)
+                   
                     Button(action: {}, label: {
                         Text(StringConstants.kLblDelete)
                             .font(FontScheme.kInterRegular(size: 16))
                             .foregroundStyle(.white)
-                    })
-                    .padding(.trailing,16)
+                    }).frame(maxWidth: .infinity,alignment:.trailing)
+                    
+                   .padding(.trailing,16)
                     
                     
                 }

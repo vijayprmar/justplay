@@ -7,25 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C9DD5C93FCDB00E02B6AF2FD05FB067 /* AEOTPTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA4280E0226226C946FA07580BA1D91 /* AEOTPTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F13518EE9EF7C4EA61FA2D5DEF9EC3D /* Pods-JustPlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD1CA2B4BDB3AB73025248F9D018BF5 /* Pods-JustPlay-dummy.m */; };
-		2683757571F2D78D15683BCC4E416CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2D126CA6C0C88B5386439C5CE230AAC3 /* AEOTPTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25389E74F6F3794E51C2DCF9CA98F0D4 /* AEOTPTextFieldDelegate.swift */; };
-		3836734EBA12313D73A6728A263E9461 /* View+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192460DC984412789284C1F0C0A0ECDB /* View+Helpers.swift */; };
-		3E4258D4401E6044D94C9FA3BF2A1AC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5E7747A6B30CABF68E5A2751C72B6AC1 /* Pods-JustPlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27388560104704724231224C49D494EF /* Pods-JustPlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		730B39307565D753836E1A2A3E64F451 /* AEOTPViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFEB80D0AF5C6A7FEB2ADE9B0F8E06 /* AEOTPViewRepresentable.swift */; };
-		B06F7E568365D21AE6E6712469A7DDC9 /* AEOTPTextFieldSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB418A0A4EA233D21B6F78588EEC31 /* AEOTPTextFieldSwiftUI.swift */; };
-		BA897B2A31AB27D30F0B08B1F32D4F63 /* AEOTPTextFieldImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1B771BDD98D432FE14B8BD7285D0E /* AEOTPTextFieldImplementation.swift */; };
-		BAA2592986D3F1B374EBABACC8380656 /* AEOTPTextFieldImplementationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873EE9329D22CAD1444AE5FC10073B3B /* AEOTPTextFieldImplementationProtocol.swift */; };
-		CE6342C90C2F428090D9A20E60FCE0C9 /* AEOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB398AB3E55EBB08C315FDD384B754 /* AEOTPView.swift */; };
-		D775D3417D9B5B61DC934A26B0BE2A11 /* AEOTPTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB21F6BF228A9A37F537039ED030A53C /* AEOTPTextField-dummy.m */; };
-		E227B76CCBCD02A40F363B8858034786 /* AEOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB333A319FB27EA41132463F58B7AABF /* AEOTPTextField.swift */; };
-		F2DADF5CEE8E52302CD0FED93578C969 /* ChangeObserverModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944B5FF9E773855A6DE649C7A07D9C7 /* ChangeObserverModifier.swift */; };
+		0C9DD5C93FCDB00E02B6AF2FD05FB067 /* AEOTPTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C578C1A3B6E5F3E67B10948436E4548 /* AEOTPTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D126CA6C0C88B5386439C5CE230AAC3 /* AEOTPTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1C93BC5BDDB72534CEDC355916498 /* AEOTPTextFieldDelegate.swift */; };
+		2EF8635C8FDCE0F129986822A80B5FEF /* NavBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAC646948EF538BEEE732C0B55A3D3 /* NavBarItem.swift */; };
+		2F0DFEC24052AA1E32D937273554E152 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */; };
+		332797B5A170CB2265ACDBA593C30556 /* PagerTabStripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1969F08C4A517EA9A639C8E3023EA76 /* PagerTabStripView.swift */; };
+		3836734EBA12313D73A6728A263E9461 /* View+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D7EA7A7ABDA4A428D0D75FE92CFC7 /* View+Helpers.swift */; };
+		3E4258D4401E6044D94C9FA3BF2A1AC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
+		3EBE094C593F9F5DC1995328FA80FEE9 /* PagerTabStripView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BDDBAE50104458778DA394A81310DE /* PagerTabStripView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558370A0F979A9F813684FA7917342BB /* Pods-JustPlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD1CA2B4BDB3AB73025248F9D018BF5 /* Pods-JustPlay-dummy.m */; };
+		6F70D5D6D6674EB3417CFA09342B0ECD /* PagerTabItemModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B41DA6708A8746CD420CE883A3007 /* PagerTabItemModifier.swift */; };
+		730B39307565D753836E1A2A3E64F451 /* AEOTPViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6347E554E394E968F0C3B01083DC5 /* AEOTPViewRepresentable.swift */; };
+		73388627BE940F4677B198D0B9069A17 /* IndicatorBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5CBBE661CDEB2AE0FAEE069396D0C /* IndicatorBarView.swift */; };
+		751B7E512032FFA960C43023821C4180 /* ScrollableNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7832E5C68A037BB96477B4AC6032C56D /* ScrollableNavBarView.swift */; };
+		7BF7F952FEB357054C8F94E31543A81A /* PagerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB90516A6C2C823CB5FC394A017FCCB7 /* PagerStyle.swift */; };
+		839ADF42555686F115BAAF152C9D5239 /* Pods-JustPlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27388560104704724231224C49D494EF /* Pods-JustPlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86BDF37C136D2666B95696E6B0D44A29 /* FixedSizeNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FFE46DDA0DAF153C64D53E5930226 /* FixedSizeNavBarView.swift */; };
+		93CFC13208B02618C7BAF53047922606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
+		9DAB2A73A37DB596B34B329AF7AE47B0 /* PagerTabStripView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA39079B274CEBCD8A7096190BD7E05 /* PagerTabStripView-dummy.m */; };
+		A3F0D966F9A83F89FC5ED6ED58C52160 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160A93ACC5CCCB13D7C183B9CF401940 /* View+Modifiers.swift */; };
+		A55FA79745FD8809E65D083F0A96C72E /* SegmentedNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0A6E2BFDAB6722770EFDE0085BC9A8 /* SegmentedNavBarView.swift */; };
+		A5ED6CCF09D35BA34E365EF6798AB267 /* NavBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7B162525FEE49F5D4B0C2B79CE5AD /* NavBarModifier.swift */; };
+		A7F96B791C5D178A667716132BFCAD49 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2142035D8CEF9DB8B35A3D3CA84FEA24 /* Collection+Extensions.swift */; };
+		B06F7E568365D21AE6E6712469A7DDC9 /* AEOTPTextFieldSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CD19F944FA07D51B1B2E940BE6D73B /* AEOTPTextFieldSwiftUI.swift */; };
+		B0BFE6646163CDA4E241CE2C87EC7FA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
+		BA897B2A31AB27D30F0B08B1F32D4F63 /* AEOTPTextFieldImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D1DDCCD2BFE7ECBB8CFC51157C551 /* AEOTPTextFieldImplementation.swift */; };
+		BAA2592986D3F1B374EBABACC8380656 /* AEOTPTextFieldImplementationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07707C03D51E51F9A98FD189288196A3 /* AEOTPTextFieldImplementationProtocol.swift */; };
+		C378FE9288EC85D4A59104E06397D5B9 /* PagerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F276547F71C3D118A627C30414D8FF /* PagerSettings.swift */; };
+		CE6342C90C2F428090D9A20E60FCE0C9 /* AEOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622A7E4D2B9C82373EDFBDB7CAC6E8E /* AEOTPView.swift */; };
+		D775D3417D9B5B61DC934A26B0BE2A11 /* AEOTPTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F5F3EC28C52C8F3F6254D47BD71735 /* AEOTPTextField-dummy.m */; };
+		E227B76CCBCD02A40F363B8858034786 /* AEOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28250FE606D4824D49EC12C92A468F22 /* AEOTPTextField.swift */; };
+		F2DADF5CEE8E52302CD0FED93578C969 /* ChangeObserverModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6412F80DDEFAA2AE8A3E2B8FBA544EBD /* ChangeObserverModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F5AC4F6B9E87241A182F457DFED4174D /* PBXContainerItemProxy */ = {
+		04E01C65FB610726F005FB3CC84319DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA23BF48A37E07B01A898EA392A734A;
+			remoteInfo = PagerTabStripView;
+		};
+		6EA359B1C5B41C67E4AEA83273240105 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,43 +58,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ACB398AB3E55EBB08C315FDD384B754 /* AEOTPView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPView.swift; path = AEOTPTextField/Source/SwiftUI/Core/AEOTPView.swift; sourceTree = "<group>"; };
-		192460DC984412789284C1F0C0A0ECDB /* View+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Helpers.swift"; path = "AEOTPTextField/Source/SwiftUI/Utilities/View+Helpers.swift"; sourceTree = "<group>"; };
-		25389E74F6F3794E51C2DCF9CA98F0D4 /* AEOTPTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldDelegate.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldDelegate.swift; sourceTree = "<group>"; };
+		040BB35B688D48D4C2C9FDF2687BF460 /* PagerTabStripView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagerTabStripView-prefix.pch"; sourceTree = "<group>"; };
+		065C87906B7EF296390ECE68892B56B3 /* AEOTPTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.release.xcconfig; sourceTree = "<group>"; };
+		07707C03D51E51F9A98FD189288196A3 /* AEOTPTextFieldImplementationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldImplementationProtocol.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldImplementationProtocol.swift; sourceTree = "<group>"; };
+		0C7FFE46DDA0DAF153C64D53E5930226 /* FixedSizeNavBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedSizeNavBarView.swift; path = Sources/NavigationBarStyles/FixedSizeNavBarView.swift; sourceTree = "<group>"; };
+		13A2457B4E9744ED4CF4343542CE00C2 /* AEOTPTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEOTPTextField-Info.plist"; sourceTree = "<group>"; };
+		160A93ACC5CCCB13D7C183B9CF401940 /* View+Modifiers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Modifiers.swift"; path = "Sources/View+Modifiers.swift"; sourceTree = "<group>"; };
+		16F276547F71C3D118A627C30414D8FF /* PagerSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerSettings.swift; path = Sources/PagerSettings.swift; sourceTree = "<group>"; };
+		1CA39079B274CEBCD8A7096190BD7E05 /* PagerTabStripView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagerTabStripView-dummy.m"; sourceTree = "<group>"; };
+		1E0A6E2BFDAB6722770EFDE0085BC9A8 /* SegmentedNavBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedNavBarView.swift; path = Sources/NavigationBarStyles/SegmentedNavBarView.swift; sourceTree = "<group>"; };
+		20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		2142035D8CEF9DB8B35A3D3CA84FEA24 /* Collection+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extensions.swift"; path = "Sources/Collection+Extensions.swift"; sourceTree = "<group>"; };
+		2158342D2FB16E9680B992EC88D1C48C /* PagerTabStripView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PagerTabStripView-Info.plist"; sourceTree = "<group>"; };
+		23CD19F944FA07D51B1B2E940BE6D73B /* AEOTPTextFieldSwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldSwiftUI.swift; path = AEOTPTextField/Source/SwiftUI/Utilities/AEOTPTextFieldSwiftUI.swift; sourceTree = "<group>"; };
+		23E6347E554E394E968F0C3B01083DC5 /* AEOTPViewRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPViewRepresentable.swift; path = AEOTPTextField/Source/SwiftUI/Core/AEOTPViewRepresentable.swift; sourceTree = "<group>"; };
 		27388560104704724231224C49D494EF /* Pods-JustPlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JustPlay-umbrella.h"; sourceTree = "<group>"; };
-		3DA4280E0226226C946FA07580BA1D91 /* AEOTPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-umbrella.h"; sourceTree = "<group>"; };
-		41CFEB80D0AF5C6A7FEB2ADE9B0F8E06 /* AEOTPViewRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPViewRepresentable.swift; path = AEOTPTextField/Source/SwiftUI/Core/AEOTPViewRepresentable.swift; sourceTree = "<group>"; };
-		5944B5FF9E773855A6DE649C7A07D9C7 /* ChangeObserverModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangeObserverModifier.swift; path = AEOTPTextField/Source/SwiftUI/Utilities/ChangeObserverModifier.swift; sourceTree = "<group>"; };
+		28250FE606D4824D49EC12C92A468F22 /* AEOTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextField.swift; path = AEOTPTextField/Source/UIKit/Core/AEOTPTextField.swift; sourceTree = "<group>"; };
+		4D1C9D86C5E5907EA8F8E94211F2494D /* AEOTPTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEOTPTextField.modulemap; sourceTree = "<group>"; };
+		4D3B4A8FDE711475A80A3AF1C0EB6D92 /* PagerTabStripView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagerTabStripView.release.xcconfig; sourceTree = "<group>"; };
+		5E1EC85AF339D9A4A41813D484143C0B /* AEOTPTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-prefix.pch"; sourceTree = "<group>"; };
+		60E1C93BC5BDDB72534CEDC355916498 /* AEOTPTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldDelegate.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6412F80DDEFAA2AE8A3E2B8FBA544EBD /* ChangeObserverModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangeObserverModifier.swift; path = AEOTPTextField/Source/SwiftUI/Utilities/ChangeObserverModifier.swift; sourceTree = "<group>"; };
+		69F2F5AF107D1E600F43CEB92285870C /* PagerTabStripView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagerTabStripView.debug.xcconfig; sourceTree = "<group>"; };
 		6B495C4B0BEF94DF812119C2324B31F2 /* Pods-JustPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JustPlay.release.xcconfig"; sourceTree = "<group>"; };
-		6D0C00DEF648A0B4EA74DD7B30ADB440 /* AEOTPTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEOTPTextField.modulemap; sourceTree = "<group>"; };
 		6DCEBDD85DD56D593B0FCFD418E2F3A5 /* Pods-JustPlay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JustPlay-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E5751CE180439C3D79C811C1E641B5E /* Pods-JustPlay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JustPlay"; path = Pods_JustPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B76384D4B7B8F1A4EAB097165B1A89 /* Pods-JustPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JustPlay.debug.xcconfig"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		873EE9329D22CAD1444AE5FC10073B3B /* AEOTPTextFieldImplementationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldImplementationProtocol.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldImplementationProtocol.swift; sourceTree = "<group>"; };
+		7622A7E4D2B9C82373EDFBDB7CAC6E8E /* AEOTPView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPView.swift; path = AEOTPTextField/Source/SwiftUI/Core/AEOTPView.swift; sourceTree = "<group>"; };
+		7832E5C68A037BB96477B4AC6032C56D /* ScrollableNavBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableNavBarView.swift; path = Sources/NavigationBarStyles/ScrollableNavBarView.swift; sourceTree = "<group>"; };
+		7C578C1A3B6E5F3E67B10948436E4548 /* AEOTPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7C7E8FC4572F174633DFAABF5308F70 /* AEOTPTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-prefix.pch"; sourceTree = "<group>"; };
-		A8802E876CBAD98444BA648D0EF18777 /* AEOTPTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.debug.xcconfig; sourceTree = "<group>"; };
-		BB21F6BF228A9A37F537039ED030A53C /* AEOTPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEOTPTextField-dummy.m"; sourceTree = "<group>"; };
+		9E4D1DDCCD2BFE7ECBB8CFC51157C551 /* AEOTPTextFieldImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldImplementation.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldImplementation.swift; sourceTree = "<group>"; };
+		9FF37491ED4B59538C4D37FA3173A5DE /* PagerTabStripView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PagerTabStripView; path = PagerTabStripView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DAC646948EF538BEEE732C0B55A3D3 /* NavBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavBarItem.swift; path = Sources/NavBarItem.swift; sourceTree = "<group>"; };
+		C1969F08C4A517EA9A639C8E3023EA76 /* PagerTabStripView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripView.swift; path = Sources/PagerTabStripView.swift; sourceTree = "<group>"; };
+		C2F5F3EC28C52C8F3F6254D47BD71735 /* AEOTPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEOTPTextField-dummy.m"; sourceTree = "<group>"; };
 		C3DB255A92697BE8F432C693B7772E06 /* Pods-JustPlay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JustPlay-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C5023CE73DAF86A9F0B8F3C568140C89 /* AEOTPTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.release.xcconfig; sourceTree = "<group>"; };
-		CB333A319FB27EA41132463F58B7AABF /* AEOTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextField.swift; path = AEOTPTextField/Source/UIKit/Core/AEOTPTextField.swift; sourceTree = "<group>"; };
-		D4CB418A0A4EA233D21B6F78588EEC31 /* AEOTPTextFieldSwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldSwiftUI.swift; path = AEOTPTextField/Source/SwiftUI/Utilities/AEOTPTextFieldSwiftUI.swift; sourceTree = "<group>"; };
+		CC0B41DA6708A8746CD420CE883A3007 /* PagerTabItemModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabItemModifier.swift; path = Sources/PagerTabItemModifier.swift; sourceTree = "<group>"; };
+		D54E8A729E067A830E232F1D211C63D9 /* AEOTPTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.debug.xcconfig; sourceTree = "<group>"; };
 		DBD1CA2B4BDB3AB73025248F9D018BF5 /* Pods-JustPlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JustPlay-dummy.m"; sourceTree = "<group>"; };
+		DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E0AB163D89CD08C36A591BA64A62B9D5 /* Pods-JustPlay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JustPlay-frameworks.sh"; sourceTree = "<group>"; };
+		E72D7EA7A7ABDA4A428D0D75FE92CFC7 /* View+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Helpers.swift"; path = "AEOTPTextField/Source/SwiftUI/Utilities/View+Helpers.swift"; sourceTree = "<group>"; };
 		E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEOTPTextField; path = AEOTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC2B8E83141565BBA0BA23C7D593561A /* AEOTPTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEOTPTextField-Info.plist"; sourceTree = "<group>"; };
+		EB90516A6C2C823CB5FC394A017FCCB7 /* PagerStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerStyle.swift; path = Sources/PagerStyle.swift; sourceTree = "<group>"; };
+		EBE5CBBE661CDEB2AE0FAEE069396D0C /* IndicatorBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorBarView.swift; path = Sources/NavigationBarStyles/IndicatorBarView.swift; sourceTree = "<group>"; };
 		F28257210E9FE9CC2AE6378FAE329C33 /* Pods-JustPlay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JustPlay-Info.plist"; sourceTree = "<group>"; };
-		F2E1B771BDD98D432FE14B8BD7285D0E /* AEOTPTextFieldImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldImplementation.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldImplementation.swift; sourceTree = "<group>"; };
+		F2BDDBAE50104458778DA394A81310DE /* PagerTabStripView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagerTabStripView-umbrella.h"; sourceTree = "<group>"; };
+		F33B99B87C2A549151613A1A14B4BF8B /* PagerTabStripView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PagerTabStripView.modulemap; sourceTree = "<group>"; };
+		FBA7B162525FEE49F5D4B0C2B79CE5AD /* NavBarModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavBarModifier.swift; path = Sources/NavBarModifier.swift; sourceTree = "<group>"; };
 		FFC4B1FB509B3812B8208CEF875AA7A2 /* Pods-JustPlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JustPlay.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		011DAEBE8D028800D736BFF61160F105 /* Frameworks */ = {
+		14C85874BE6DE705ED19FB9B5BFC9793 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2683757571F2D78D15683BCC4E416CB7 /* Foundation.framework in Frameworks */,
+				93CFC13208B02618C7BAF53047922606 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654022F16FDB6B40ABAC8A4DED7DED5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BFE6646163CDA4E241CE2C87EC7FA9 /* Foundation.framework in Frameworks */,
+				2F0DFEC24052AA1E32D937273554E152 /* SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +139,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367350C0206CEB39C83981ABCAA29148 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2ADEDCE889F166E6B4DD301D4BE82EAC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				42CA4884A43FC0A1F0567998EF16A7A9 /* Pods-JustPlay */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		367350C0206CEB39C83981ABCAA29148 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */,
+				20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		39CCF6353DC4BFCB11F778ECB7247AC6 /* AEOTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				28250FE606D4824D49EC12C92A468F22 /* AEOTPTextField.swift */,
+				60E1C93BC5BDDB72534CEDC355916498 /* AEOTPTextFieldDelegate.swift */,
+				9E4D1DDCCD2BFE7ECBB8CFC51157C551 /* AEOTPTextFieldImplementation.swift */,
+				07707C03D51E51F9A98FD189288196A3 /* AEOTPTextFieldImplementationProtocol.swift */,
+				23CD19F944FA07D51B1B2E940BE6D73B /* AEOTPTextFieldSwiftUI.swift */,
+				7622A7E4D2B9C82373EDFBDB7CAC6E8E /* AEOTPView.swift */,
+				23E6347E554E394E968F0C3B01083DC5 /* AEOTPViewRepresentable.swift */,
+				6412F80DDEFAA2AE8A3E2B8FBA544EBD /* ChangeObserverModifier.swift */,
+				E72D7EA7A7ABDA4A428D0D75FE92CFC7 /* View+Helpers.swift */,
+				998C01E9FF30E24397D6A412ABAB954B /* Support Files */,
+			);
+			name = AEOTPTextField;
+			path = AEOTPTextField;
 			sourceTree = "<group>";
 		};
 		42CA4884A43FC0A1F0567998EF16A7A9 /* Pods-JustPlay */ = {
@@ -111,81 +199,85 @@
 			path = "Target Support Files/Pods-JustPlay";
 			sourceTree = "<group>";
 		};
-		56055C7031B4B82659068220694A1357 /* Products */ = {
+		998C01E9FF30E24397D6A412ABAB954B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */,
-				6E5751CE180439C3D79C811C1E641B5E /* Pods-JustPlay */,
+				4D1C9D86C5E5907EA8F8E94211F2494D /* AEOTPTextField.modulemap */,
+				C2F5F3EC28C52C8F3F6254D47BD71735 /* AEOTPTextField-dummy.m */,
+				13A2457B4E9744ED4CF4343542CE00C2 /* AEOTPTextField-Info.plist */,
+				5E1EC85AF339D9A4A41813D484143C0B /* AEOTPTextField-prefix.pch */,
+				7C578C1A3B6E5F3E67B10948436E4548 /* AEOTPTextField-umbrella.h */,
+				D54E8A729E067A830E232F1D211C63D9 /* AEOTPTextField.debug.xcconfig */,
+				065C87906B7EF296390ECE68892B56B3 /* AEOTPTextField.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/AEOTPTextField";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		AE6867D5E972353E474473AE9E87EF48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				F33B99B87C2A549151613A1A14B4BF8B /* PagerTabStripView.modulemap */,
+				1CA39079B274CEBCD8A7096190BD7E05 /* PagerTabStripView-dummy.m */,
+				2158342D2FB16E9680B992EC88D1C48C /* PagerTabStripView-Info.plist */,
+				040BB35B688D48D4C2C9FDF2687BF460 /* PagerTabStripView-prefix.pch */,
+				F2BDDBAE50104458778DA394A81310DE /* PagerTabStripView-umbrella.h */,
+				69F2F5AF107D1E600F43CEB92285870C /* PagerTabStripView.debug.xcconfig */,
+				4D3B4A8FDE711475A80A3AF1C0EB6D92 /* PagerTabStripView.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/PagerTabStripView";
 			sourceTree = "<group>";
 		};
-		782AF122AA16671EAC66693440D15461 /* Pods */ = {
+		B0E20C57DACB6B8AC52F7C54C93E7293 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD2C5F00BA43CE2B55C40030A80A6883 /* AEOTPTextField */,
+				39CCF6353DC4BFCB11F778ECB7247AC6 /* AEOTPTextField */,
+				F3668A7DE6DD96E27AEB92CD25BE00A1 /* PagerTabStripView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AD2C5F00BA43CE2B55C40030A80A6883 /* AEOTPTextField */ = {
+		BD80092748DD014E5EFA00E008AB85ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB333A319FB27EA41132463F58B7AABF /* AEOTPTextField.swift */,
-				25389E74F6F3794E51C2DCF9CA98F0D4 /* AEOTPTextFieldDelegate.swift */,
-				F2E1B771BDD98D432FE14B8BD7285D0E /* AEOTPTextFieldImplementation.swift */,
-				873EE9329D22CAD1444AE5FC10073B3B /* AEOTPTextFieldImplementationProtocol.swift */,
-				D4CB418A0A4EA233D21B6F78588EEC31 /* AEOTPTextFieldSwiftUI.swift */,
-				0ACB398AB3E55EBB08C315FDD384B754 /* AEOTPView.swift */,
-				41CFEB80D0AF5C6A7FEB2ADE9B0F8E06 /* AEOTPViewRepresentable.swift */,
-				5944B5FF9E773855A6DE649C7A07D9C7 /* ChangeObserverModifier.swift */,
-				192460DC984412789284C1F0C0A0ECDB /* View+Helpers.swift */,
-				AD8EA89E61465D44E759FD0D5B924D06 /* Support Files */,
+				E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */,
+				9FF37491ED4B59538C4D37FA3173A5DE /* PagerTabStripView */,
+				6E5751CE180439C3D79C811C1E641B5E /* Pods-JustPlay */,
 			);
-			name = AEOTPTextField;
-			path = AEOTPTextField;
-			sourceTree = "<group>";
-		};
-		AD8EA89E61465D44E759FD0D5B924D06 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D0C00DEF648A0B4EA74DD7B30ADB440 /* AEOTPTextField.modulemap */,
-				BB21F6BF228A9A37F537039ED030A53C /* AEOTPTextField-dummy.m */,
-				EC2B8E83141565BBA0BA23C7D593561A /* AEOTPTextField-Info.plist */,
-				A7C7E8FC4572F174633DFAABF5308F70 /* AEOTPTextField-prefix.pch */,
-				3DA4280E0226226C946FA07580BA1D91 /* AEOTPTextField-umbrella.h */,
-				A8802E876CBAD98444BA648D0EF18777 /* AEOTPTextField.debug.xcconfig */,
-				C5023CE73DAF86A9F0B8F3C568140C89 /* AEOTPTextField.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AEOTPTextField";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				782AF122AA16671EAC66693440D15461 /* Pods */,
-				56055C7031B4B82659068220694A1357 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B0E20C57DACB6B8AC52F7C54C93E7293 /* Pods */,
+				BD80092748DD014E5EFA00E008AB85ED /* Products */,
 				2ADEDCE889F166E6B4DD301D4BE82EAC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		F3668A7DE6DD96E27AEB92CD25BE00A1 /* PagerTabStripView */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				2142035D8CEF9DB8B35A3D3CA84FEA24 /* Collection+Extensions.swift */,
+				0C7FFE46DDA0DAF153C64D53E5930226 /* FixedSizeNavBarView.swift */,
+				EBE5CBBE661CDEB2AE0FAEE069396D0C /* IndicatorBarView.swift */,
+				A5DAC646948EF538BEEE732C0B55A3D3 /* NavBarItem.swift */,
+				FBA7B162525FEE49F5D4B0C2B79CE5AD /* NavBarModifier.swift */,
+				16F276547F71C3D118A627C30414D8FF /* PagerSettings.swift */,
+				EB90516A6C2C823CB5FC394A017FCCB7 /* PagerStyle.swift */,
+				CC0B41DA6708A8746CD420CE883A3007 /* PagerTabItemModifier.swift */,
+				C1969F08C4A517EA9A639C8E3023EA76 /* PagerTabStripView.swift */,
+				7832E5C68A037BB96477B4AC6032C56D /* ScrollableNavBarView.swift */,
+				1E0A6E2BFDAB6722770EFDE0085BC9A8 /* SegmentedNavBarView.swift */,
+				160A93ACC5CCCB13D7C183B9CF401940 /* View+Modifiers.swift */,
+				AE6867D5E972353E474473AE9E87EF48 /* Support Files */,
 			);
-			name = Frameworks;
+			name = PagerTabStripView;
+			path = PagerTabStripView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,11 +291,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A077482149E667866CF54B9CA1FF5050 /* Headers */ = {
+		87AEEB4E621D80A9008B2391B64DFCDF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E7747A6B30CABF68E5A2751C72B6AC1 /* Pods-JustPlay-umbrella.h in Headers */,
+				839ADF42555686F115BAAF152C9D5239 /* Pods-JustPlay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7F646B0B8EF301BE1CF94268E60577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBE094C593F9F5DC1995328FA80FEE9 /* PagerTabStripView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,21 +312,40 @@
 /* Begin PBXNativeTarget section */
 		6FAD365BD65A6A5E0680FF9D868DC8C5 /* Pods-JustPlay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C82BC5F1E952ACF9785123A96ED35AA /* Build configuration list for PBXNativeTarget "Pods-JustPlay" */;
+			buildConfigurationList = DDAED7EAEB35F84014E2C208DA3CF076 /* Build configuration list for PBXNativeTarget "Pods-JustPlay" */;
 			buildPhases = (
-				A077482149E667866CF54B9CA1FF5050 /* Headers */,
-				E22712B141A2842F06E787A140E5509F /* Sources */,
-				011DAEBE8D028800D736BFF61160F105 /* Frameworks */,
-				5A261F3D733201F89BC6E783EDAE49BA /* Resources */,
+				87AEEB4E621D80A9008B2391B64DFCDF /* Headers */,
+				834A2BE6E50EABEF312643CB16243073 /* Sources */,
+				14C85874BE6DE705ED19FB9B5BFC9793 /* Frameworks */,
+				295E32440AB507E8F001951279F10EA8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				02D939C92D3B0D8DE6BD32686EED3E78 /* PBXTargetDependency */,
+				FCF499A6A940A8EFA2F650DE2060F643 /* PBXTargetDependency */,
+				E7D667A8234EADA8D30782C7F6A4D307 /* PBXTargetDependency */,
 			);
 			name = "Pods-JustPlay";
 			productName = Pods_JustPlay;
 			productReference = 6E5751CE180439C3D79C811C1E641B5E /* Pods-JustPlay */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BA23BF48A37E07B01A898EA392A734A /* PagerTabStripView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C686CB20CAA4DEAD7E43840FFF4B8EC /* Build configuration list for PBXNativeTarget "PagerTabStripView" */;
+			buildPhases = (
+				EE7F646B0B8EF301BE1CF94268E60577 /* Headers */,
+				880369AD343882FBD9FFBBD910D2ED01 /* Sources */,
+				654022F16FDB6B40ABAC8A4DED7DED5A /* Frameworks */,
+				DFBDF171CC563851FFC204FB0EC9F682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagerTabStripView;
+			productName = PagerTabStripView;
+			productReference = 9FF37491ED4B59538C4D37FA3173A5DE /* PagerTabStripView */;
 			productType = "com.apple.product-type.framework";
 		};
 		843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */ = {
@@ -265,18 +384,26 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 56055C7031B4B82659068220694A1357 /* Products */;
+			productRefGroup = BD80092748DD014E5EFA00E008AB85ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */,
+				7BA23BF48A37E07B01A898EA392A734A /* PagerTabStripView */,
 				6FAD365BD65A6A5E0680FF9D868DC8C5 /* Pods-JustPlay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A261F3D733201F89BC6E783EDAE49BA /* Resources */ = {
+		295E32440AB507E8F001951279F10EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBDF171CC563851FFC204FB0EC9F682 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,6 +420,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		834A2BE6E50EABEF312643CB16243073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558370A0F979A9F813684FA7917342BB /* Pods-JustPlay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880369AD343882FBD9FFBBD910D2ED01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F96B791C5D178A667716132BFCAD49 /* Collection+Extensions.swift in Sources */,
+				86BDF37C136D2666B95696E6B0D44A29 /* FixedSizeNavBarView.swift in Sources */,
+				73388627BE940F4677B198D0B9069A17 /* IndicatorBarView.swift in Sources */,
+				2EF8635C8FDCE0F129986822A80B5FEF /* NavBarItem.swift in Sources */,
+				A5ED6CCF09D35BA34E365EF6798AB267 /* NavBarModifier.swift in Sources */,
+				C378FE9288EC85D4A59104E06397D5B9 /* PagerSettings.swift in Sources */,
+				7BF7F952FEB357054C8F94E31543A81A /* PagerStyle.swift in Sources */,
+				6F70D5D6D6674EB3417CFA09342B0ECD /* PagerTabItemModifier.swift in Sources */,
+				332797B5A170CB2265ACDBA593C30556 /* PagerTabStripView.swift in Sources */,
+				9DAB2A73A37DB596B34B329AF7AE47B0 /* PagerTabStripView-dummy.m in Sources */,
+				751B7E512032FFA960C43023821C4180 /* ScrollableNavBarView.swift in Sources */,
+				A55FA79745FD8809E65D083F0A96C72E /* SegmentedNavBarView.swift in Sources */,
+				A3F0D966F9A83F89FC5ED6ED58C52160 /* View+Modifiers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2EE4BCA87ACF486973B946918513F7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,29 +465,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E22712B141A2842F06E787A140E5509F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F13518EE9EF7C4EA61FA2D5DEF9EC3D /* Pods-JustPlay-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02D939C92D3B0D8DE6BD32686EED3E78 /* PBXTargetDependency */ = {
+		E7D667A8234EADA8D30782C7F6A4D307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PagerTabStripView;
+			target = 7BA23BF48A37E07B01A898EA392A734A /* PagerTabStripView */;
+			targetProxy = 04E01C65FB610726F005FB3CC84319DB /* PBXContainerItemProxy */;
+		};
+		FCF499A6A940A8EFA2F650DE2060F643 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AEOTPTextField;
 			target = 843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */;
-			targetProxy = F5AC4F6B9E87241A182F457DFED4174D /* PBXContainerItemProxy */;
+			targetProxy = 6EA359B1C5B41C67E4AEA83273240105 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1C2E1DD8FC3118BBBE811F1E84DD6B7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5023CE73DAF86A9F0B8F3C568140C89 /* AEOTPTextField.release.xcconfig */;
+			baseConfigurationReference = 065C87906B7EF296390ECE68892B56B3 /* AEOTPTextField.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -365,6 +518,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5370C1826C299481071D734BE76AC71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B76384D4B7B8F1A4EAB097165B1A89 /* Pods-JustPlay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JustPlay/Pods-JustPlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JustPlay/Pods-JustPlay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -432,44 +622,7 @@
 			};
 			name = Debug;
 		};
-		893525A1803A0E946DAF00B486A3B576 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B76384D4B7B8F1A4EAB097165B1A89 /* Pods-JustPlay.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JustPlay/Pods-JustPlay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JustPlay/Pods-JustPlay.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C9F4ED6FBBED2A6F291C882C664C836F /* Release */ = {
+		70637E593F06420BE2416A0D0D51C17E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B495C4B0BEF94DF812119C2324B31F2 /* Pods-JustPlay.release.xcconfig */;
 			buildSettings = {
@@ -507,9 +660,45 @@
 			};
 			name = Release;
 		};
+		97052BA645B6B17646C4817BCFDF4C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3B4A8FDE711475A80A3AF1C0EB6D92 /* PagerTabStripView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PagerTabStripView/PagerTabStripView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagerTabStripView/PagerTabStripView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PagerTabStripView/PagerTabStripView.modulemap";
+				PRODUCT_MODULE_NAME = PagerTabStripView;
+				PRODUCT_NAME = PagerTabStripView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CD60DA2697DB10C3EDA21E405B257195 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8802E876CBAD98444BA648D0EF18777 /* AEOTPTextField.debug.xcconfig */;
+			baseConfigurationReference = D54E8A729E067A830E232F1D211C63D9 /* AEOTPTextField.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -536,6 +725,41 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFE1FC25CFA45E6F7E5E6485952CA0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F2F5AF107D1E600F43CEB92285870C /* PagerTabStripView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PagerTabStripView/PagerTabStripView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagerTabStripView/PagerTabStripView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PagerTabStripView/PagerTabStripView.modulemap";
+				PRODUCT_MODULE_NAME = PagerTabStripView;
+				PRODUCT_NAME = PagerTabStripView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -616,20 +840,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C82BC5F1E952ACF9785123A96ED35AA /* Build configuration list for PBXNativeTarget "Pods-JustPlay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				893525A1803A0E946DAF00B486A3B576 /* Debug */,
-				C9F4ED6FBBED2A6F291C882C664C836F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6D73FBEE8D2E402C92FF746E5D3C6516 /* Build configuration list for PBXNativeTarget "AEOTPTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD60DA2697DB10C3EDA21E405B257195 /* Debug */,
 				1C2E1DD8FC3118BBBE811F1E84DD6B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C686CB20CAA4DEAD7E43840FFF4B8EC /* Build configuration list for PBXNativeTarget "PagerTabStripView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE1FC25CFA45E6F7E5E6485952CA0EB /* Debug */,
+				97052BA645B6B17646C4817BCFDF4C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAED7EAEB35F84014E2C208DA3CF076 /* Build configuration list for PBXNativeTarget "Pods-JustPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5370C1826C299481071D734BE76AC71A /* Debug */,
+				70637E593F06420BE2416A0D0D51C17E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

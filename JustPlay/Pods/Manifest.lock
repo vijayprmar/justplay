@@ -1,16 +1,20 @@
 PODS:
   - AEOTPTextField (1.2.6)
+  - PagerTabStripView (4.0.0)
 
 DEPENDENCIES:
   - AEOTPTextField
+  - PagerTabStripView
 
 SPEC REPOS:
   trunk:
     - AEOTPTextField
+    - PagerTabStripView
 
 SPEC CHECKSUMS:
   AEOTPTextField: a275823fde05601c5da7f8fb66aaecb41289b370
+  PagerTabStripView: 4d51320a7349ac4da5a662ac0bdacb8e8e5120f1
 
-PODFILE CHECKSUM: 2a23080696f9fdd36f4a5707428e17b325b367f0
+PODFILE CHECKSUM: ea6cae8051928e9974754a6b0f307a9e54dd0d5e
 
 COCOAPODS: 1.12.1

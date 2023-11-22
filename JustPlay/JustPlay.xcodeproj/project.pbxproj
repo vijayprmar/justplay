@@ -33,6 +33,10 @@
 		6F4C36112AFA1E180063537B /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36102AFA1E180063537B /* CapsuleButton.swift */; };
 		6F4C36132AFA48490063537B /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36122AFA48490063537B /* SavedView.swift */; };
 		6F4C36162AFA48750063537B /* SavedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C36152AFA48750063537B /* SavedCard.swift */; };
+		6F7BD2092B0E0E0900F82DD2 /* DownloadedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BD2082B0E0E0900F82DD2 /* DownloadedView.swift */; };
+		6F7BD20B2B0E0E2700F82DD2 /* DownloadedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BD20A2B0E0E2700F82DD2 /* DownloadedCardView.swift */; };
+		6F7BD20E2B0E198500F82DD2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BD20D2B0E198500F82DD2 /* ProfileView.swift */; };
+		6FACCFAC2AFD008700E67CED /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FACCFAB2AFD008700E67CED /* DownloadsView.swift */; };
 		9DCD8E02F4BA99C72564F0F1 /* Pods_JustPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5835FF53FE70EE171A81EF4 /* Pods_JustPlay.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +54,7 @@
 		6F4C35E92AF8E17E0063537B /* InterRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterRegular.ttf; sourceTree = "<group>"; };
 		6F4C35EA2AF8E17E0063537B /* PoppinsLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsLight.ttf; sourceTree = "<group>"; };
 		6F4C35EB2AF8E17E0063537B /* PoppinsSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsSemiBold.ttf; sourceTree = "<group>"; };
-		6F4C35F22AF8E1C20063537B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F4C35F22AF8E1C20063537B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4C35F32AF8E2A50063537B /* FontScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
 		6F4C35F92AF8EB960063537B /* StringScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringScheme.swift; sourceTree = "<group>"; };
 		6F4C35FB2AF8F0040063537B /* LabelledDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelledDivider.swift; sourceTree = "<group>"; };
@@ -65,6 +69,10 @@
 		6F4C36102AFA1E180063537B /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
 		6F4C36122AFA48490063537B /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
 		6F4C36152AFA48750063537B /* SavedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCard.swift; sourceTree = "<group>"; };
+		6F7BD2082B0E0E0900F82DD2 /* DownloadedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedView.swift; sourceTree = "<group>"; };
+		6F7BD20A2B0E0E2700F82DD2 /* DownloadedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedCardView.swift; sourceTree = "<group>"; };
+		6F7BD20D2B0E198500F82DD2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6FACCFAB2AFD008700E67CED /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
 		E3DACB731D632C98395BBB59 /* Pods-JustPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPlay.debug.xcconfig"; path = "Target Support Files/Pods-JustPlay/Pods-JustPlay.debug.xcconfig"; sourceTree = "<group>"; };
 		F5835FF53FE70EE171A81EF4 /* Pods_JustPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				6F4C35CF2AF8C9280063537B /* JustPlay */,
+				6F4C35D02AF8C9280063537B /* JustPlayApp.swift */,
+				6F4C35D42AF8C9290063537B /* Assets.xcassets */,
 				6F4C35CE2AF8C9280063537B /* Products */,
 				B9EFCFDEF6889ED3877AF8A2 /* Pods */,
 				9D339CBD92BB324F629877A9 /* Frameworks */,
@@ -111,10 +121,10 @@
 				6F4C36082AFA10D20063537B /* Tabbar */,
 				6F4C360D2AFA17F10063537B /* Home */,
 				6F4C36142AFA48560063537B /* Saved */,
-				6F4C35D02AF8C9280063537B /* JustPlayApp.swift */,
-				6F4C35D42AF8C9290063537B /* Assets.xcassets */,
 				6F4C35D62AF8C9290063537B /* Preview Content */,
 				6F4C35FD2AF8F0080063537B /* CustomeViews */,
+				6FACCFAD2AFD008D00E67CED /* Downloads */,
+				6F7BD20C2B0E197000F82DD2 /* Profile */,
 			);
 			path = JustPlay;
 			sourceTree = "<group>";
@@ -211,6 +221,24 @@
 				6F4C36152AFA48750063537B /* SavedCard.swift */,
 			);
 			path = Saved;
+			sourceTree = "<group>";
+		};
+		6F7BD20C2B0E197000F82DD2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6F7BD20D2B0E198500F82DD2 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6FACCFAD2AFD008D00E67CED /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				6FACCFAB2AFD008700E67CED /* DownloadsView.swift */,
+				6F7BD2082B0E0E0900F82DD2 /* DownloadedView.swift */,
+				6F7BD20A2B0E0E2700F82DD2 /* DownloadedCardView.swift */,
+			);
+			path = Downloads;
 			sourceTree = "<group>";
 		};
 		9D339CBD92BB324F629877A9 /* Frameworks */ = {
@@ -361,6 +389,7 @@
 				6F4C36072AF913440063537B /* OTPVerificationView.swift in Sources */,
 				6F4C35FF2AF902570063537B /* SignupView.swift in Sources */,
 				6F4C35FA2AF8EB960063537B /* StringScheme.swift in Sources */,
+				6F7BD2092B0E0E0900F82DD2 /* DownloadedView.swift in Sources */,
 				6F4C36012AF903310063537B /* ForgotPasswordView.swift in Sources */,
 				6F4C36032AF9100F0063537B /* ResetPasswordView.swift in Sources */,
 				6F4C360C2AFA14EA0063537B /* TabbarMainView.swift in Sources */,
@@ -372,6 +401,9 @@
 				6F4C360F2AFA18050063537B /* HomeView.swift in Sources */,
 				6F4C35FC2AF8F0040063537B /* LabelledDivider.swift in Sources */,
 				6F4C36112AFA1E180063537B /* CapsuleButton.swift in Sources */,
+				6F7BD20B2B0E0E2700F82DD2 /* DownloadedCardView.swift in Sources */,
+				6FACCFAC2AFD008700E67CED /* DownloadsView.swift in Sources */,
+				6F7BD20E2B0E198500F82DD2 /* ProfileView.swift in Sources */,
 				6F4C35F42AF8E2A50063537B /* FontScheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

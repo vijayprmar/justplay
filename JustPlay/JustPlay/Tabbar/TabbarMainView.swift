@@ -25,6 +25,10 @@ struct TabbarMainView: View {
                 .tabItem {
                     Label("Saved", image: "img_saved")
                 }
+            DownloadsView()
+                .tabItem {
+                    Label("Downloads", image: "img_download")
+                }
             
         }
         .tint(.white)
