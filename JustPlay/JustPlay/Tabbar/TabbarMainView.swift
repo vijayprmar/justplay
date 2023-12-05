@@ -29,6 +29,10 @@ struct TabbarMainView: View {
                 .tabItem {
                     Label("Downloads", image: "img_download")
                 }
+            ProfileView()
+                .tabItem {
+                    Label("Me", image: "img_user_fill")
+                }
             
         }
         .tint(.white)

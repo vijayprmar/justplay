@@ -7,7 +7,25 @@
 
 import SwiftUI
 
+class ProfileOption{
+    var id = UUID()
+    var title:String
+    var image:String
+    var isSelected:Bool
+    
+    init(title: String, image: String, isSelected: Bool) {
+        self.title = title
+        self.image = image
+        self.isSelected = isSelected
+    }
+    
+}
+
+
 struct ProfileView: View {
+    
+    @StateObject var viewModel = ProfileViewModel()
+  
     var body: some View {
         ZStack{
             Color.appDarkBlue
@@ -26,38 +44,37 @@ struct ProfileView: View {
                             .resizable()
                             .frame(width: 100, height: 100)
                             .cornerRadius(50, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                        
                         Text(StringConstants.kLblAntonioRenders)
                             .font(FontScheme.kPoppinsSemiBold(size: 20))
                             .foregroundStyle(.white)
                             .frame(maxWidth: .infinity,alignment:.center)
                             .padding(.bottom,1)
+                        
                         Text(StringConstants.kMsgRendersAntoni)
                             .font(FontScheme.kPoppinsSemiBold(size: 16))
                             .foregroundStyle(.gray)
                             .frame(maxWidth: .infinity,alignment:.center)
                        
-                        HStack{
-                            Image("img_user")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 30, height: 30)
-                                .background(.white.opacity(0.2))
-                                .cornerRadius(15, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                
-                                
+                        ForEach(viewModel.options,id: \.id) { option in
+                            ProfileCell(title: option.title, isSelected: option.isSelected, image: option.image)
                         }
                         
                     })
+                    
                 })
                 .padding(.leading,10)
                 .padding(.trailing,10)
+               
                 
             }
             .background(.appDarkBlue)
         }
-            
-        
     }
+    
+    
+   
+    
 }
 
 #Preview {

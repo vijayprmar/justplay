@@ -36,6 +36,8 @@
 		6F7BD2092B0E0E0900F82DD2 /* DownloadedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BD2082B0E0E0900F82DD2 /* DownloadedView.swift */; };
 		6F7BD20B2B0E0E2700F82DD2 /* DownloadedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BD20A2B0E0E2700F82DD2 /* DownloadedCardView.swift */; };
 		6F7BD20E2B0E198500F82DD2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BD20D2B0E198500F82DD2 /* ProfileView.swift */; };
+		6F8DD7FC2B1F3A5800217915 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8DD7FB2B1F3A5800217915 /* ProfileCell.swift */; };
+		6F8DD7FE2B1F4A2D00217915 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8DD7FD2B1F4A2D00217915 /* ProfileViewModel.swift */; };
 		6FACCFAC2AFD008700E67CED /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FACCFAB2AFD008700E67CED /* DownloadsView.swift */; };
 		9DCD8E02F4BA99C72564F0F1 /* Pods_JustPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5835FF53FE70EE171A81EF4 /* Pods_JustPlay.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +74,8 @@
 		6F7BD2082B0E0E0900F82DD2 /* DownloadedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedView.swift; sourceTree = "<group>"; };
 		6F7BD20A2B0E0E2700F82DD2 /* DownloadedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedCardView.swift; sourceTree = "<group>"; };
 		6F7BD20D2B0E198500F82DD2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6F8DD7FB2B1F3A5800217915 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		6F8DD7FD2B1F4A2D00217915 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		6FACCFAB2AFD008700E67CED /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
 		E3DACB731D632C98395BBB59 /* Pods-JustPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPlay.debug.xcconfig"; path = "Target Support Files/Pods-JustPlay/Pods-JustPlay.debug.xcconfig"; sourceTree = "<group>"; };
 		F5835FF53FE70EE171A81EF4 /* Pods_JustPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,6 +231,8 @@
 			isa = PBXGroup;
 			children = (
 				6F7BD20D2B0E198500F82DD2 /* ProfileView.swift */,
+				6F8DD7FB2B1F3A5800217915 /* ProfileCell.swift */,
+				6F8DD7FD2B1F4A2D00217915 /* ProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -387,6 +393,7 @@
 				6F4C36162AFA48750063537B /* SavedCard.swift in Sources */,
 				6F4C36052AF911850063537B /* ResetPasswordCongratesView.swift in Sources */,
 				6F4C36072AF913440063537B /* OTPVerificationView.swift in Sources */,
+				6F8DD7FC2B1F3A5800217915 /* ProfileCell.swift in Sources */,
 				6F4C35FF2AF902570063537B /* SignupView.swift in Sources */,
 				6F4C35FA2AF8EB960063537B /* StringScheme.swift in Sources */,
 				6F7BD2092B0E0E0900F82DD2 /* DownloadedView.swift in Sources */,
@@ -398,6 +405,7 @@
 				6F4C35D12AF8C9280063537B /* JustPlayApp.swift in Sources */,
 				6F4C35E22AF8CF230063537B /* LoginView.swift in Sources */,
 				6F4C35E02AF8CD5F0063537B /* SplashView.swift in Sources */,
+				6F8DD7FE2B1F4A2D00217915 /* ProfileViewModel.swift in Sources */,
 				6F4C360F2AFA18050063537B /* HomeView.swift in Sources */,
 				6F4C35FC2AF8F0040063537B /* LabelledDivider.swift in Sources */,
 				6F4C36112AFA1E180063537B /* CapsuleButton.swift in Sources */,
